@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+ 
+}
+/* Footer.css */
+.typing-effect {
+  overflow: hidden;
+  border-right: 2px solid; 
+  white-space: nowrap; 
+  letter-spacing: 2px; 
+  animation: typing 3s steps(90, end), blink-caret 0.75s step-end infinite;
+}
+.effect-two {
+  animation: typing 4.5s steps(145, end), blink-caret 0.75s step-end infinite;
+
+}
+/* Typing animation */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* Blinking cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black }
+}
