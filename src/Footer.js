@@ -31,12 +31,12 @@ const Footer = () => {
     >
       <div className="w-full flex justify-center">
         <Button
-          style={{ backgroundColor: "steelblue", display: none }}
+          style={{ backgroundColor: "orange", display: none }}
           btnOnClick={handleButtonClick}
           text="Help"
         />
         <Button
-          style={{ backgroundColor: "steelblue", display: none2 }}
+          style={{ backgroundColor: "orange", display: none2 }}
           btnOnClick={handleButtonClick2}
           text="What's next?"
         />

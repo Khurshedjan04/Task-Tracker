@@ -17,6 +17,7 @@ const Add = ({ onAdd }) => {
     setDay("")
     setReminder(false)
   };
+  
   return (
     <form className="mb-10" onSubmit={onSubmit}>
       <div className="my-6">

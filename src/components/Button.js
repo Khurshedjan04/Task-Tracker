@@ -12,8 +12,7 @@ const Button = ({ text, style, btnOnClick}) => {
 };
 
 Button.propTypes = {
-  text: PropTypes.string,
-  // onclick: PropTypes.func,
+  text: PropTypes.string
 };
 
 export default Button;
